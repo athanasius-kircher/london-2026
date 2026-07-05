@@ -36,7 +36,8 @@ function StepScreen({ step, onComplete }) {
         title={step.title}
         summary={step.summary}
         question={step.question}
-        onSelect={(index) => setPhase(index === step.question.rightAnswer ? 'result' : 'error')}
+        onBack={() => setPhase('navigation')}
+        onConfirm={(index) => setPhase(index === step.question.rightAnswer ? 'result' : 'error')}
       />
     )
   }
