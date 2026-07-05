@@ -1,0 +1,21 @@
+{
+  "name": "London City Race",
+  "short_name": "City Race",
+  "start_url": "/london-2026/",
+  "scope": "/london-2026/",
+  "display": "standalone",
+  "background_color": "#ece1c4",
+  "theme_color": "#2b241c",
+  "icons": [
+    {
+      "src": "/london-2026/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/london-2026/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
