@@ -24,57 +24,5 @@
     "result": {
       "text": "Richtig! Es sind vier Löwen, die die Säule bewachen."
     }
-  },
-  {
-    "id": "step-02",
-    "type": "default",
-    "title": "Die Uhr am Fluss",
-    "intro": {
-      "text": "Ein berühmter Klang begleitet diesen Ort seit über 150 Jahren.",
-      "image": null
-    },
-    "navigation": {
-      "text": "Geht am Ufer entlang, bis ihr den großen Turm mit dem Ziffernblatt seht.",
-      "image": null
-    },
-    "summary": "Der Zeiger bewegt sich unaufhaltsam - ein guter Ort, um innezuhalten.",
-    "question": {
-      "text": "Welche Uhrzeit zeigt der große Turm gerade an?",
-      "answers": [
-        "A",
-        "B"
-      ],
-      "rightAnswer": 0,
-      "image": null
-    },
-    "result": {
-      "text": "Notiert euch die Zeit für später - sie wird noch wichtig."
-    }
-  },
-  {
-    "id": "step-03",
-    "type": "default",
-    "title": "Das verborgene Zeichen",
-    "intro": {
-      "text": "An dieser Stelle verbirgt sich ein Hinweis im Straßenbild.",
-      "image": null
-    },
-    "navigation": {
-      "text": "Sucht die schmale Gasse hinter dem alten Buchladen.",
-      "image": null
-    },
-    "summary": "Nicht alles ist, wie es scheint - schaut genau hin.",
-    "question": {
-      "text": "Welches Symbol seht ihr über der Tür?",
-      "answers": [
-        "A",
-        "B"
-      ],
-      "rightAnswer": 0,
-      "image": null
-    },
-    "result": {
-      "text": "Ein Kompass - das Zeichen führt euch zur nächsten Station."
-    }
   }
 ]

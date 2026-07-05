@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import StartScreen from './screens/StartScreen.jsx'
 import StepScreen from './screens/StepScreen.jsx'
+import FinishScreen from './screens/FinishScreen.jsx'
 
 function App() {
   const [steps, setSteps] = useState(null)
@@ -20,11 +21,7 @@ function App() {
   }
 
   if (stepIndex >= steps.length) {
-    return (
-      <div className="container" style={{ textAlign: 'center', paddingTop: 'var(--space-6)' }}>
-        <h1>Geschafft (Platzhalter)</h1>
-      </div>
-    )
+    return <FinishScreen />
   }
 
   return (
