@@ -1,0 +1,109 @@
+:root {
+  --color-paper: #ece1c4;
+  --color-paper-dark: #ddcda3;
+  --color-ink: #2b241c;
+  --color-ink-soft: #5c5041;
+  --color-accent: #7a2426;
+  --color-accent-dark: #591a1c;
+  --color-brass: #a9812f;
+  --color-brass-soft: #cbaa66;
+  --color-navy: #2c3b40;
+  --color-success: #4b6b3f;
+  --color-error: #8c3a3a;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'EB Garamond', Georgia, serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 10px;
+
+  --shadow-soft: 0 2px 6px rgba(43, 36, 28, 0.18), 0 1px 2px rgba(43, 36, 28, 0.12);
+  --shadow-lifted: 0 8px 20px rgba(43, 36, 28, 0.28);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  background-image:
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(43, 36, 28, 0.16) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-2);
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0 0 var(--space-3);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  margin-bottom: var(--space-2);
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-3) var(--space-6);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+::selection {
+  background: var(--color-brass-soft);
+  color: var(--color-ink);
+}

@@ -1,0 +1,21 @@
+.card {
+  position: relative;
+  background-color: var(--color-paper-dark);
+  border: 1px solid rgba(169, 129, 47, 0.5);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-soft);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(169, 129, 47, 0.35);
+  border-radius: calc(var(--radius-md) - 3px);
+  pointer-events: none;
+}
+
+.card + .card {
+  margin-top: var(--space-4);
+}
