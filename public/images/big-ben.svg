@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="700" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="680" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="664" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- ground -->
+  <line x1="60" y1="660" x2="340" y2="660" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- base plinth -->
+  <rect x="130" y="600" width="140" height="60" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- tapered tower shaft -->
+  <polygon points="145,600 255,600 248,260 152,260" fill="#ece1c4" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- decorative string courses -->
+  <rect x="150" y="556" width="100" height="8" fill="#a9812f" opacity="0.8"/>
+  <rect x="150" y="476" width="100" height="8" fill="#a9812f" opacity="0.8"/>
+  <rect x="150" y="396" width="100" height="8" fill="#a9812f" opacity="0.8"/>
+  <rect x="150" y="316" width="100" height="8" fill="#a9812f" opacity="0.8"/>
+
+  <!-- arched windows -->
+  <rect x="180" y="336" width="20" height="36" rx="10" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="180" y="416" width="20" height="36" rx="10" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="180" y="496" width="20" height="36" rx="10" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="180" y="576" width="20" height="36" rx="10" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+
+  <!-- corner turrets -->
+  <polygon points="145,200 155,160 165,200" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+  <polygon points="235,200 245,160 255,200" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+
+  <!-- clock housing -->
+  <rect x="140" y="200" width="120" height="70" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="140,200 200,150 260,200" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- clock face -->
+  <circle cx="200" cy="235" r="50" fill="#ece1c4" stroke="#a9812f" stroke-width="6"/>
+  <circle cx="200" cy="235" r="50" fill="none" stroke="#2b241c" stroke-width="1.5"/>
+  <line x1="200" y1="185" x2="200" y2="193" stroke="#2b241c" stroke-width="3"/>
+  <line x1="250" y1="235" x2="242" y2="235" stroke="#2b241c" stroke-width="3"/>
+  <line x1="200" y1="285" x2="200" y2="277" stroke="#2b241c" stroke-width="3"/>
+  <line x1="150" y1="235" x2="158" y2="235" stroke="#2b241c" stroke-width="3"/>
+  <line x1="200" y1="235" x2="180" y2="210" stroke="#2b241c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="200" y1="235" x2="225" y2="205" stroke="#2b241c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="200" cy="235" r="4" fill="#2b241c"/>
+
+  <!-- central spire -->
+  <polygon points="175,150 200,60 225,150" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- finial -->
+  <line x1="200" y1="60" x2="200" y2="30" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="200,32 222,40 200,48" fill="#7a2426" stroke="#2b241c" stroke-width="1.5"/>
+</svg>
