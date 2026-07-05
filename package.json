@@ -1,0 +1,31 @@
+{
+  "name": "london-2026",
+  "version": "1.0.0",
+  "description": "This is a short private project for a children city race, when visiting london. It is partly AI generated and uses github pages for deployment.",
+  "homepage": "https://github.com/athanasius-kircher/london-2026#readme",
+  "bugs": {
+    "url": "https://github.com/athanasius-kircher/london-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athanasius-kircher/london-2026.git"
+  },
+  "license": "MIT",
+  "author": "athanasius.kirchner@gmail.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}
