@@ -1,0 +1,56 @@
+[
+  {
+    "id": "step-01",
+    "type": "default",
+    "title": "Der rätselhafte Platz",
+    "intro": "Euer erster Hinweis führt euch zu einem belebten Platz im Herzen der Stadt.",
+    "navigation": {
+      "text": "Folgt der Hauptstraße bis zur großen Säule mit dem steinernen Wächter.",
+      "image": null
+    },
+    "summary": "Vor euch erhebt sich ein Denkmal, umgeben von steinernen Löwen.",
+    "question": {
+      "text": "Wie viele Löwen zählt ihr rund um das Denkmal?",
+      "images": []
+    },
+    "result": {
+      "text": "Richtig! Es sind vier Löwen, die die Säule bewachen."
+    }
+  },
+  {
+    "id": "step-02",
+    "type": "default",
+    "title": "Die Uhr am Fluss",
+    "intro": "Ein berühmter Klang begleitet diesen Ort seit über 150 Jahren.",
+    "navigation": {
+      "text": "Geht am Ufer entlang, bis ihr den großen Turm mit dem Ziffernblatt seht.",
+      "image": null
+    },
+    "summary": "Der Zeiger bewegt sich unaufhaltsam - ein guter Ort, um innezuhalten.",
+    "question": {
+      "text": "Welche Uhrzeit zeigt der große Turm gerade an?",
+      "images": []
+    },
+    "result": {
+      "text": "Notiert euch die Zeit für später - sie wird noch wichtig."
+    }
+  },
+  {
+    "id": "step-03",
+    "type": "default",
+    "title": "Das verborgene Zeichen",
+    "intro": "An dieser Stelle verbirgt sich ein Hinweis im Straßenbild.",
+    "navigation": {
+      "text": "Sucht die schmale Gasse hinter dem alten Buchladen.",
+      "image": null
+    },
+    "summary": "Nicht alles ist, wie es scheint - schaut genau hin.",
+    "question": {
+      "text": "Welches Symbol seht ihr über der Tür?",
+      "images": []
+    },
+    "result": {
+      "text": "Ein Kompass - das Zeichen führt euch zur nächsten Station."
+    }
+  }
+]
