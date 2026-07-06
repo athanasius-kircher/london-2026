@@ -1,0 +1,28 @@
+[
+  {
+    "id": "step-01",
+    "type": "default",
+    "title": "Der rätselhafte Platz",
+    "intro": {
+      "text": "Euer erster Hinweis führt euch zu einem belebten Platz im Herzen der Stadt.",
+      "image": "images/big-ben.svg"
+    },
+    "navigation": {
+      "text": "Folgt der Hauptstraße bis zur großen Säule mit dem steinernen Wächter.",
+      "image": null
+    },
+    "summary": "Vor euch erhebt sich ein Denkmal, umgeben von steinernen Löwen.",
+    "question": {
+      "text": "Wie viele Löwen zählt ihr rund um das Denkmal?",
+      "answers": [
+        "A",
+        "B"
+      ],
+      "rightAnswer": 0,
+      "image": null
+    },
+    "result": {
+      "text": "Richtig! Es sind vier Löwen, die die Säule bewachen."
+    }
+  }
+]
