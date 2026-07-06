@@ -1,0 +1,16 @@
+.text-answer-input {
+  width: 100%;
+  margin-top: var(--space-4);
+  padding: var(--space-3);
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  color: var(--color-ink);
+  background: var(--color-paper);
+  border: 1px solid rgba(169, 129, 47, 0.6);
+  border-radius: var(--radius-sm);
+}
+
+.text-answer-input:focus {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 1px;
+}

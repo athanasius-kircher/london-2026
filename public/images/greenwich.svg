@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- meridian line splitting the world -->
+  <rect x="30" y="30" width="170" height="340" fill="#ddd0ab" opacity="0.35"/>
+  <line x1="200" y1="30" x2="200" y2="370" stroke="#a9812f" stroke-width="4"/>
+
+  <!-- hill -->
+  <path d="M30 330 Q200 260 370 330 L370 350 L30 350 Z" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- observatory building -->
+  <rect x="150" y="250" width="100" height="80" fill="#ece1c4" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="150,250 200,210 250,250" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- dome -->
+  <circle cx="200" cy="205" r="30" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <path d="M170 205 A30 30 0 0 1 230 205" fill="none" stroke="#a9812f" stroke-width="2" opacity="0.7"/>
+
+  <!-- mast with time ball -->
+  <line x1="200" y1="175" x2="200" y2="120" stroke="#2b241c" stroke-width="3"/>
+  <circle cx="200" cy="108" r="12" fill="#7a2426" stroke="#2b241c" stroke-width="2"/>
+
+  <!-- windows -->
+  <rect x="170" y="270" width="16" height="26" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="215" y="270" width="16" height="26" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+
+  <!-- ground line -->
+  <line x1="30" y1="350" x2="370" y2="350" stroke="#2b241c" stroke-width="3"/>
+</svg>

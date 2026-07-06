@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- plate -->
+  <ellipse cx="200" cy="300" rx="130" ry="20" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- bottom bun -->
+  <path d="M100 270 Q100 250 130 250 L270 250 Q300 250 300 270 L300 280 L100 280 Z" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- patty -->
+  <rect x="105" y="235" width="190" height="22" rx="8" fill="#5c5041" stroke="#2b241c" stroke-width="2.5"/>
+
+  <!-- lettuce -->
+  <path d="M95 232 q15 -14 30 0 q15 -14 30 0 q15 -14 30 0 q15 -14 30 0 q15 -14 30 0 q15 -14 30 0"
+        fill="none" stroke="#2c3b40" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- tomato slice -->
+  <rect x="115" y="212" width="170" height="14" rx="6" fill="#7a2426" stroke="#2b241c" stroke-width="2"/>
+
+  <!-- top bun -->
+  <path d="M100 210 Q100 140 200 135 Q300 140 300 210 Z" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <circle cx="170" cy="175" r="4" fill="#a9812f"/>
+  <circle cx="200" cy="160" r="4" fill="#a9812f"/>
+  <circle cx="230" cy="178" r="4" fill="#a9812f"/>
+  <circle cx="200" cy="195" r="4" fill="#a9812f"/>
+
+  <!-- little pick flag -->
+  <line x1="200" y1="135" x2="200" y2="95" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="200,97 232,108 200,119" fill="#7a2426" stroke="#2b241c" stroke-width="1.5"/>
+</svg>

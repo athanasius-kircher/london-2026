@@ -2,27 +2,226 @@
   {
     "id": "step-01",
     "type": "default",
-    "title": "Der rätselhafte Platz",
+    "title": "Die Linie, die die Welt teilt",
     "intro": {
-      "text": "Euer erster Hinweis führt euch zu einem belebten Platz im Herzen der Stadt.",
+      "text": "Irgendwo in dieser Stadt gibt es einen Ort, an dem die ganze Welt in zwei Hälften geteilt wird — und ihr könnt genau darauf stehen.",
+      "image": "images/greenwich.svg"
+    },
+    "navigation": {
+      "text": "Nehmt das Boot auf der Themse flussaufwärts. Steigt aus, sobald ihr auf einem Hügel ein altes Observatorium mit einer roten Kugel auf dem Dach seht.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rotherhithe+Pier+London"
+    },
+    "summary": "Vor euch liegt eine alte Sternwarte auf einem Hügel, mit einer roten Kugel auf einem Mast auf dem Dach.",
+    "question": {
+      "type": "number",
+      "text": "Auf dem Hügel steht die alte Sternwarte mit einer roten Kugel auf einem Mast. Jeden Tag fällt sie zur exakt gleichen Uhrzeit herunter, damit Schiffskapitäne früher ihre Uhren stellen konnten. Um wie viel Uhr passiert das?",
+      "correctAnswer": "13",
+      "image": null
+    },
+    "result": {
+      "text": "Richtig — um 13 Uhr fällt die Kugel, damit Schiffskapitäne früher ihre Uhren stellen konnten.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-02",
+    "type": "default",
+    "title": "Die Brücke, die sich öffnet",
+    "intro": {
+      "text": "Diese Brücke sieht aus wie ein Märchenschloss — aber sie kann etwas, das kein Schloss kann: sich mitten auseinanderklappen.",
+      "image": "images/tower-bridge.svg"
+    },
+    "navigation": {
+      "text": "Das Boot bringt euch direkt bis zu den zwei großen Türmen am Fluss. Von der Anlegestelle sind es nur ein paar Schritte.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Greenwich+Pier+London"
+    },
+    "summary": "Vor euch stehen zwei große Türme, verbunden über die Themse.",
+    "question": {
+      "type": "choice",
+      "text": "Die Brücke kann sich in der Mitte nach oben öffnen, damit große Schiffe durchfahren können. Wie nennt man so eine Brücke?",
+      "answers": ["Hängebrücke", "Klappbrücke", "Bogenbrücke"],
+      "rightAnswer": 1,
+      "image": null
+    },
+    "result": {
+      "text": "Genau — man nennt sie eine Klappbrücke, weil sie sich für große Schiffe nach oben öffnen kann.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-03",
+    "type": "default",
+    "title": "Die Kuppel über der Stadt",
+    "intro": {
+      "text": "Nach einem großen Feuer musste hier fast die ganze Stadt neu gebaut werden. Ein Baumeister schuf ein Meisterwerk — und blieb für immer darin.",
+      "image": "images/st-pauls.svg"
+    },
+    "navigation": {
+      "text": "Diesmal braucht ihr keine Bahn. Folgt der breiten Straße Richtung Westen, bis eine riesige, runde Kuppel über den Dächern auftaucht.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St+Paul%27s+Cathedral+London"
+    },
+    "summary": "Vor euch erhebt sich eine riesige, runde Kuppel über einer alten Kirche.",
+    "question": {
+      "type": "word",
+      "text": "Nach dem großen Feuer von London musste die Kirche neu gebaut werden. Der berühmte Baumeister liegt sogar selbst in seiner Kirche begraben. Findet seinen Nachnamen!",
+      "correctAnswer": "Wren",
+      "image": null
+    },
+    "result": {
+      "text": "Richtig, sein Name war Wren — er liegt tatsächlich in seiner eigenen Kirche begraben.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-04",
+    "type": "default",
+    "title": "Der Turm mit der großen Stimme",
+    "intro": {
+      "text": "Fast jeder kennt seinen berühmten Namen — dabei gehört er eigentlich nicht dem Turm, sondern etwas, das man nicht sieht, sondern hört.",
       "image": "images/big-ben.svg"
     },
     "navigation": {
-      "text": "Folgt der Hauptstraße bis zur großen Säule mit dem steinernen Wächter.",
+      "text": "Nehmt die rote Linie eine Station, wechselt dann auf die grün-gelbe Linie Richtung Westen. Steigt aus, sobald ihr einen großen Fluss und einen Uhrenturm seht.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Big+Ben+London"
+    },
+    "summary": "Vor euch ragt ein hoher Turm mit einem großen Ziffernblatt auf.",
+    "question": {
+      "type": "choice",
+      "text": "Fast jeder nennt den ganzen Turm 'Big Ben' — aber das stimmt gar nicht! Was ist wirklich Big Ben?",
+      "answers": ["Der ganze Turm", "Die große Glocke im Turm", "Die Uhr"],
+      "rightAnswer": 1,
       "image": null
     },
-    "summary": "Vor euch erhebt sich ein Denkmal, umgeben von steinernen Löwen.",
+    "result": {
+      "text": "Stimmt — Big Ben ist eigentlich die große Glocke, nicht der Turm selbst.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-05",
+    "type": "default",
+    "title": "Die Wachen am goldenen Tor",
+    "intro": {
+      "text": "Vor einem großen Tor mit goldenen Verzierungen stehen Wachen, die sich kaum bewegen — bis auf einen besonderen Moment am Tag.",
+      "image": "images/buckingham-guard.svg"
+    },
+    "navigation": {
+      "text": "Spaziert durch den grünen Park in Richtung Westen, bis ihr ein großes Tor mit goldenen Ornamenten und viele Menschen davor seht.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buckingham+Palace+London"
+    },
+    "summary": "Vor dem großen Tor stehen Wachen in roten Uniformen mit hohen, schwarzen Mützen.",
     "question": {
-      "text": "Wie viele Löwen zählt ihr rund um das Denkmal?",
-      "answers": [
-        "A",
-        "B"
-      ],
+      "type": "choice",
+      "text": "Die Wachen tragen hohe, schwarze Fellmützen. Von welchem Tier stammt das Fell ursprünglich?",
+      "answers": ["Wolf", "Bär", "Pferd"],
+      "rightAnswer": 1,
+      "image": null
+    },
+    "result": {
+      "text": "Genau — die hohen schwarzen Mützen sind aus echtem Bärenfell.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-06",
+    "type": "default",
+    "title": "Der Platz der tausend Lichter",
+    "intro": {
+      "text": "Hier leuchten riesige Bildschirme Tag und Nacht, und mitten auf dem Platz steht eine Statue, die fast jeder falsch nennt.",
+      "image": "images/piccadilly-circus.svg"
+    },
+    "navigation": {
+      "text": "Folgt der breiten Allee durch den Park nach Nordosten, bis grelle Leuchtreklamen und viele Menschen auftauchen.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Piccadilly+Circus+London"
+    },
+    "summary": "Über euch leuchten riesige Werbebildschirme, vor euch steht eine kleine Statue auf einem Sockel.",
+    "question": {
+      "type": "choice",
+      "text": "Die berühmte Statue auf dem Platz wird von fast allen 'Eros' genannt — das ist aber gar nicht ihr richtiger Name! Wie heißt der Engel wirklich?",
+      "answers": ["Anteros", "Amor", "Apollo"],
       "rightAnswer": 0,
       "image": null
     },
     "result": {
-      "text": "Richtig! Es sind vier Löwen, die die Säule bewachen."
+      "text": "Richtig, der Engel heißt Anteros — 'Eros' ist nur ein Spitzname, den sich die Leute ausgedacht haben.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-07",
+    "type": "break",
+    "title": "Eine kurze Rast",
+    "intro": {
+      "text": "Nach so viel Detektivarbeit hat sich eine Stärkung verdient — Zeit für eine Pause.",
+      "image": "images/honest-burger.svg"
+    },
+    "navigation": {
+      "text": "Nur ein kurzer Weg durch die kleinen Gassen ganz in der Nähe.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Honest+Burger+Soho+London"
+    },
+    "summary": null,
+    "question": null,
+    "result": {
+      "text": "Gut gestärkt geht's weiter zur nächsten Station!",
+      "image": null
+    }
+  },
+  {
+    "id": "step-08",
+    "type": "default",
+    "title": "Der bunte Marktweg",
+    "intro": {
+      "text": "Eine Straße voller bunter Häuser und Marktstände — und ein kleiner Bär aus einem berühmten Film hat hier fast sein Zuhause.",
+      "image": "images/portobello-market.svg"
+    },
+    "navigation": {
+      "text": "Nehmt die dunkelblaue Linie Richtung Westen. Steigt aus, sobald der Bahnhofsname etwas mit 'Gate' zu tun hat, und folgt den bunten Häusern.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Portobello+Road+Market+London"
+    },
+    "summary": "Vor euch reiht sich eine Straße bunter Häuser und Marktstände aneinander.",
+    "question": {
+      "type": "code",
+      "text": "Schaut euch die Straßenschilder von Portobello Road an. Neben dem Straßennamen steht ein Kürzel aus Buchstabe(n) und Zahl — das ist der Postleitzahl-Bezirk. Wie lautet er?",
+      "correctAnswer": "W11",
+      "image": null
+    },
+    "result": {
+      "text": "Genau — das Postleitzahl-Kürzel ist W11.",
+      "image": null
+    }
+  },
+  {
+    "id": "step-09",
+    "type": "default",
+    "title": "Der Junge, der nicht erwachsen wurde",
+    "intro": {
+      "text": "Am Ende eures Weges wartet ein Junge, der niemals erwachsen werden wollte — und der eines Morgens einfach da war, wie durch Zauberei.",
+      "image": "images/peter-pan.svg"
+    },
+    "navigation": {
+      "text": "Spaziert nach Süden, bis ihr einen großen grünen Park mit einem See erreicht. Sucht am Ufer nach einer Statue voller kleiner Feen und Tiere.",
+      "image": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Peter+Pan+Statue+Kensington+Gardens+London"
+    },
+    "summary": "Vor euch steht eine Statue eines Jungen mit einer Flöte, umgeben von kleinen Feen und Tieren.",
+    "question": {
+      "type": "choice",
+      "text": "Die Statue stand plötzlich eines Morgens einfach da — als wäre sie durch Zauberei erschienen! Wer hatte sie in Wahrheit heimlich über Nacht aufstellen lassen?",
+      "answers": ["Der Bürgermeister von London", "Der Erfinder von Peter Pan", "Die Kinder von Kensington Gardens selbst"],
+      "rightAnswer": 1,
+      "image": null
+    },
+    "result": {
+      "text": "Richtig — sein Erfinder ließ die Statue heimlich über Nacht aufstellen, damit es wie Zauberei aussah.",
+      "image": null
     }
   }
 ]

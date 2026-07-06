@@ -1,0 +1,32 @@
+.text-image-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.text-image-header h1 {
+  margin-bottom: 0;
+}
+
+.info-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-brass);
+  color: var(--color-ink);
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background: rgba(169, 129, 47, 0.12);
+}
+
+.info-icon:active {
+  background: rgba(169, 129, 47, 0.25);
+}

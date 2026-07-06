@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- ground -->
+  <line x1="60" y1="340" x2="340" y2="340" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- tapering pedestal (tree stump style) -->
+  <path d="M160 340 L170 240 Q200 225 230 240 L240 340 Z" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- small climbing critters on pedestal -->
+  <circle cx="175" cy="300" r="8" fill="#5c5041" opacity="0.5" stroke="#2b241c" stroke-width="1.5"/>
+  <circle cx="222" cy="285" r="7" fill="#5c5041" opacity="0.5" stroke="#2b241c" stroke-width="1.5"/>
+  <circle cx="190" cy="320" r="6" fill="#5c5041" opacity="0.5" stroke="#2b241c" stroke-width="1.5"/>
+
+  <!-- boy figure -->
+  <rect x="182" y="185" width="36" height="60" rx="8" fill="#2c3b40" stroke="#2b241c" stroke-width="3"/>
+  <line x1="182" y1="205" x2="150" y2="190" stroke="#2c3b40" stroke-width="8" stroke-linecap="round"/>
+  <line x1="218" y1="205" x2="250" y2="190" stroke="#2c3b40" stroke-width="8" stroke-linecap="round"/>
+  <line x1="192" y1="245" x2="188" y2="240" stroke="#2b241c" stroke-width="6"/>
+  <line x1="208" y1="245" x2="212" y2="240" stroke="#2b241c" stroke-width="6"/>
+
+  <!-- head -->
+  <circle cx="200" cy="165" r="20" fill="#ece1c4" stroke="#2b241c" stroke-width="2.5"/>
+
+  <!-- pointed cap with feather -->
+  <path d="M180 158 Q182 125 205 118 Q198 140 220 130" fill="#7a2426" stroke="#2b241c" stroke-width="2.5"/>
+
+  <!-- pipe at mouth -->
+  <line x1="212" y1="170" x2="235" y2="165" stroke="#2b241c" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- small fairy nearby -->
+  <circle cx="270" cy="150" r="5" fill="#a9812f"/>
+  <path d="M270 150 Q280 140 270 132 Q260 140 270 150" fill="none" stroke="#a9812f" stroke-width="2"/>
+</svg>

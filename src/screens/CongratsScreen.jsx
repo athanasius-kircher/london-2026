@@ -22,8 +22,11 @@ function CongratsScreen({ onNext }) {
         />
       </svg>
 
-      <p>Ihr habt alle Hinweise gefunden und jedes Rätsel gelöst. Die Stadt hält keine Geheimnisse mehr vor euch.</p>
-      <p>Zum Abschluss wartet noch eine letzte Aufgabe: euer Siegerfoto.</p>
+      <p>
+        Ihr seid echte Meisterdetektive! Jedes Rätsel gelöst, jeden Hinweis gefunden — London hat
+        keine Geheimnisse mehr vor euch.
+      </p>
+      <p>Nur noch eine Sache fehlt: euer ganz persönliches Siegerfoto!</p>
 
       <div style={{ marginTop: 'var(--space-5)' }}>
         <Button variant="primary" onClick={onNext}>

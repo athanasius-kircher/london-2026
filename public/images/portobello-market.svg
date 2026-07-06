@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- row of terraced houses -->
+  <rect x="40" y="120" width="80" height="160" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <rect x="120" y="100" width="80" height="180" fill="#7a2426" opacity="0.75" stroke="#2b241c" stroke-width="3"/>
+  <rect x="200" y="130" width="80" height="150" fill="#2c3b40" opacity="0.8" stroke="#2b241c" stroke-width="3"/>
+  <rect x="280" y="110" width="80" height="170" fill="#ece1c4" stroke="#2b241c" stroke-width="3"/>
+
+  <!-- windows -->
+  <rect x="60" y="150" width="16" height="22" fill="#5c5041" opacity="0.2" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="86" y="150" width="16" height="22" fill="#5c5041" opacity="0.2" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="145" y="135" width="16" height="22" fill="#ece1c4" opacity="0.7" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="172" y="135" width="16" height="22" fill="#ece1c4" opacity="0.7" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="222" y="160" width="16" height="22" fill="#ece1c4" opacity="0.6" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="248" y="160" width="16" height="22" fill="#ece1c4" opacity="0.6" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="305" y="145" width="16" height="22" fill="#5c5041" opacity="0.2" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="332" y="145" width="16" height="22" fill="#5c5041" opacity="0.2" stroke="#2b241c" stroke-width="1.5"/>
+
+  <!-- doors -->
+  <rect x="70" y="240" width="24" height="40" fill="#2b241c"/>
+  <rect x="150" y="240" width="24" height="40" fill="#2b241c"/>
+  <rect x="230" y="240" width="24" height="40" fill="#2b241c"/>
+  <rect x="310" y="240" width="24" height="40" fill="#2b241c"/>
+
+  <!-- market stall awning in front -->
+  <path d="M100 320 L300 320 L280 290 L120 290 Z" fill="#a9812f" stroke="#2b241c" stroke-width="3"/>
+  <line x1="140" y1="290" x2="152" y2="320" stroke="#2b241c" stroke-width="2"/>
+  <line x1="180" y1="290" x2="188" y2="320" stroke="#2b241c" stroke-width="2"/>
+  <line x1="220" y1="290" x2="224" y2="320" stroke="#2b241c" stroke-width="2"/>
+  <line x1="260" y1="290" x2="260" y2="320" stroke="#2b241c" stroke-width="2"/>
+  <rect x="110" y="320" width="180" height="14" fill="#ddd0ab" stroke="#2b241c" stroke-width="2.5"/>
+
+  <line x1="30" y1="334" x2="370" y2="334" stroke="#2b241c" stroke-width="3"/>
+</svg>

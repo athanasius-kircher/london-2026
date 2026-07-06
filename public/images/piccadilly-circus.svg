@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- illuminated ad boards in the corners -->
+  <rect x="35" y="35" width="70" height="45" fill="#2c3b40" stroke="#a9812f" stroke-width="2"/>
+  <rect x="295" y="35" width="70" height="45" fill="#2c3b40" stroke="#a9812f" stroke-width="2"/>
+  <rect x="35" y="320" width="70" height="45" fill="#2c3b40" stroke="#a9812f" stroke-width="2"/>
+  <line x1="45" y1="50" x2="95" y2="50" stroke="#a9812f" stroke-width="2" opacity="0.7"/>
+  <line x1="45" y1="62" x2="85" y2="62" stroke="#a9812f" stroke-width="2" opacity="0.7"/>
+  <line x1="305" y1="50" x2="355" y2="50" stroke="#a9812f" stroke-width="2" opacity="0.7"/>
+  <line x1="305" y1="62" x2="345" y2="62" stroke="#a9812f" stroke-width="2" opacity="0.7"/>
+
+  <!-- fountain tiers -->
+  <polygon points="140,340 260,340 240,300 160,300" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="160,300 240,300 225,260 175,260" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <rect x="192" y="200" width="16" height="60" fill="#ddd0ab" stroke="#2b241c" stroke-width="2.5"/>
+
+  <!-- winged archer figure -->
+  <circle cx="200" cy="170" r="16" fill="#ece1c4" stroke="#2b241c" stroke-width="2.5"/>
+  <line x1="200" y1="186" x2="200" y2="220" stroke="#2b241c" stroke-width="4"/>
+  <path d="M200 195 L165 175" stroke="#2b241c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M200 195 L235 175" stroke="#2b241c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 190 Q150 170 165 145" fill="none" stroke="#a9812f" stroke-width="3"/>
+  <path d="M220 190 Q250 170 235 145" fill="none" stroke="#a9812f" stroke-width="3"/>
+</svg>

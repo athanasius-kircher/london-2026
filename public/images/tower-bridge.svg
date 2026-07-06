@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ece1c4"/>
+  <rect x="10" y="10" width="380" height="380" rx="12" fill="none" stroke="#a9812f" stroke-width="3" opacity="0.6"/>
+  <rect x="18" y="18" width="364" height="364" rx="8" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- river -->
+  <rect x="30" y="300" width="340" height="60" fill="#ddd0ab" opacity="0.4"/>
+  <path d="M30 315 Q60 305 90 315 T150 315 T210 315 T270 315 T330 315 T370 315" fill="none" stroke="#a9812f" stroke-width="2" opacity="0.6"/>
+
+  <!-- left tower -->
+  <rect x="90" y="120" width="60" height="190" fill="#ece1c4" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="90,120 120,80 150,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="82,120 90,95 98,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+  <polygon points="142,120 150,95 158,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+
+  <!-- right tower -->
+  <rect x="250" y="120" width="60" height="190" fill="#ece1c4" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="250,120 280,80 310,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="3"/>
+  <polygon points="242,120 250,95 258,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+  <polygon points="302,120 310,95 318,120" fill="#ddd0ab" stroke="#2b241c" stroke-width="2"/>
+
+  <!-- upper walkway -->
+  <rect x="150" y="160" width="100" height="20" fill="#ddd0ab" stroke="#2b241c" stroke-width="2.5"/>
+
+  <!-- lower bascule deck, slightly raised to suggest opening -->
+  <line x1="150" y1="280" x2="195" y2="255" stroke="#2b241c" stroke-width="6"/>
+  <line x1="250" y1="280" x2="205" y2="255" stroke="#2b241c" stroke-width="6"/>
+
+  <!-- windows on towers -->
+  <rect x="112" y="170" width="16" height="24" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="112" y="220" width="16" height="24" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="272" y="170" width="16" height="24" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+  <rect x="272" y="220" width="16" height="24" fill="#5c5041" opacity="0.15" stroke="#2b241c" stroke-width="1.5"/>
+</svg>

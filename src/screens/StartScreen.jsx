@@ -5,9 +5,12 @@ function StartScreen({ loading, error, onStart }) {
   return (
     <div className="container" style={{ textAlign: 'center', paddingTop: 'var(--space-6)' }}>
       <span className="eyebrow">London City Race</span>
-      <h1>Auf zur Stadtrallye</h1>
+      <h1>Bereit für euer großes Abenteuer?</h1>
       <Divider />
-      <p>Folgt den Hinweisen durch die Stadt und löst jedes Rätsel unterwegs.</p>
+      <p>
+        Werdet zu Detektiven und entdeckt die Geheimnisse Londons! An jeder Station wartet ein
+        neues Rätsel — findet alle Hinweise und kommt eurem Ziel Schritt für Schritt näher.
+      </p>
 
       {error && <p style={{ color: 'var(--color-error)' }}>Fehler beim Laden: {error}</p>}
 
