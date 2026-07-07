@@ -12,6 +12,11 @@ function StartScreen({ loading, error, onStart }) {
         neues Rätsel — findet alle Hinweise und kommt eurem Ziel Schritt für Schritt näher.
       </p>
 
+        <p>
+            Schnappt euch eine Karte von der Underground, so heißt die U-Bahn in London,
+            und los geht's!
+        </p>
+
       {error && <p style={{ color: 'var(--color-error)' }}>Fehler beim Laden: {error}</p>}
 
       <div style={{ marginTop: 'var(--space-5)' }}>
