@@ -9,7 +9,7 @@
     },
     "navigation": {
       "text": "Nehmt das Boot auf der Themse flussaufwärts. Steigt aus, sobald ihr auf einem Hügel ein altes Observatorium mit einer roten Kugel auf dem Dach seht.",
-      "image": null,
+      "image": "images/photos/greenwich-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rotherhithe+Pier+London"
     },
     "summary": "Vor euch liegt eine alte Sternwarte auf einem Hügel, mit einer roten Kugel auf einem Mast auf dem Dach.",
@@ -34,7 +34,7 @@
     },
     "navigation": {
       "text": "Das Boot bringt euch direkt bis zu den zwei großen Türmen am Fluss. Von der Anlegestelle sind es nur ein paar Schritte.",
-      "image": null,
+      "image": "images/photos/tower-bridge-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Greenwich+Pier+London"
     },
     "summary": "Vor euch stehen zwei große Türme, verbunden über die Themse.",
@@ -60,7 +60,7 @@
     },
     "navigation": {
       "text": "Diesmal braucht ihr keine Bahn. Folgt der breiten Straße Richtung Westen, bis eine riesige, runde Kuppel über den Dächern auftaucht.",
-      "image": null,
+      "image": "images/photos/st-pauls-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St+Paul%27s+Cathedral+London"
     },
     "summary": "Vor euch erhebt sich eine riesige, runde Kuppel über einer alten Kirche.",
@@ -85,7 +85,7 @@
     },
     "navigation": {
       "text": "Nehmt die rote Linie eine Station, wechselt dann auf die grün-gelbe Linie Richtung Westen. Steigt aus, sobald ihr einen großen Fluss und einen Uhrenturm seht.",
-      "image": null,
+      "image": "images/photos/big-ben-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Big+Ben+London"
     },
     "summary": "Vor euch ragt ein hoher Turm mit einem großen Ziffernblatt auf.",
@@ -111,7 +111,7 @@
     },
     "navigation": {
       "text": "Spaziert durch den grünen Park in Richtung Westen, bis ihr ein großes Tor mit goldenen Ornamenten und viele Menschen davor seht.",
-      "image": null,
+      "image": "images/photos/buckingham-guard-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buckingham+Palace+London"
     },
     "summary": "Vor dem großen Tor stehen Wachen in roten Uniformen mit hohen, schwarzen Mützen.",
@@ -137,7 +137,7 @@
     },
     "navigation": {
       "text": "Folgt der breiten Allee durch den Park nach Nordosten, bis grelle Leuchtreklamen und viele Menschen auftauchen.",
-      "image": null,
+      "image": "images/photos/piccadilly-circus-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Piccadilly+Circus+London"
     },
     "summary": "Über euch leuchten riesige Werbebildschirme, vor euch steht eine kleine Statue auf einem Sockel.",
@@ -163,7 +163,7 @@
     },
     "navigation": {
       "text": "Nur ein kurzer Weg durch die kleinen Gassen ganz in der Nähe.",
-      "image": null,
+      "image": "images/photos/soho-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Honest+Burger+Soho+London"
     },
     "summary": null,
@@ -183,7 +183,7 @@
     },
     "navigation": {
       "text": "Nehmt die dunkelblaue Linie Richtung Westen. Steigt aus, sobald der Bahnhofsname etwas mit 'Gate' zu tun hat, und folgt den bunten Häusern.",
-      "image": null,
+      "image": "images/photos/portobello-market-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Portobello+Road+Market+London"
     },
     "summary": "Vor euch reiht sich eine Straße bunter Häuser und Marktstände aneinander.",
@@ -208,7 +208,7 @@
     },
     "navigation": {
       "text": "Spaziert nach Süden, bis ihr einen großen grünen Park mit einem See erreicht. Sucht am Ufer nach einer Statue voller kleiner Feen und Tiere.",
-      "image": null,
+      "image": "images/photos/peter-pan-photo.jpg",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Peter+Pan+Statue+Kensington+Gardens+London"
     },
     "summary": "Vor euch steht eine Statue eines Jungen mit einer Flöte, umgeben von kleinen Feen und Tieren.",
